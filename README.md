@@ -29,7 +29,7 @@ The entire dashboard consist of a single page, divided into four section
 - Line Chart and Two Measures
 - Donut Chart and Bar Chart
 
-![dashboard](docs/dashboard.pdf)
+![dashboard](docs/dashboard.png)
 
 The Dashboard is designed to evoke a clean and modern feel while keeping it user friendly
 
