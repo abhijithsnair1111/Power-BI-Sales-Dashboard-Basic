@@ -3,6 +3,8 @@ Welcome to the **Electronics Store Power BI Sales Dashboard Project**💡
 
 This basic Power BI dashboard creation project is done on the fictional data generated based on real world electronic store sales details for a fiscal year.
 
+[Complete Dashboard]() in Power BI Service
+
 ## 📌 Project Overview
 Create a single page Power BI dashboard for an Electronics Store reporting all the essential metrics regarding their sales for the year 2025.  
 The dashboard should be modern and minimalist following all the UI/UX principles for easy user experience
