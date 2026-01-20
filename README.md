@@ -66,7 +66,7 @@ The DAX calculations for this dataset mainly consists of creating two dedicated 
   - `revenue_growth` - Increase in revenue compared to the previous year
   - `average_revenue_per_customer` - Total revenue divided by total customers
   - `average_order_value` - Total revenue divided by total orders
-The formulas written as a single query in [`measures_dax_formulas`](scripts/measures_dax_formulas)
+The formulas written as a single query in [`measures_dax_formula`](scripts/measures_dax_formula)
 
 - **Date Table**  
  The `date_table` is generated with all the dates from the sales fiscal year, it contains additional information regarding the **Quarter**, **Month** numerical and name and **Day** from the order date.
