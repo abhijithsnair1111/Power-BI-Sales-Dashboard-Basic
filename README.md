@@ -1,4 +1,4 @@
-# Electroniccs Store Sales Performance Dashboard - Power BI (Basic)
+# Electronics Store Sales Performance Dashboard - Power BI (Basic)
 Welcome to the **Electronics Store Power BI Sales Dashboard Project**💡
 
 This basic Power BI dashboard creation project is done on the fictional data generated based on real world electronic store sales details for a fiscal year.
