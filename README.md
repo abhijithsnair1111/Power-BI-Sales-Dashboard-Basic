@@ -123,6 +123,8 @@ This dashboard does not contain advanced reporting features like multiple pages,
 
 Thank You for visiting this project 🚀
 
+---
+
 
 
 
