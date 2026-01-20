@@ -109,7 +109,7 @@ The Data Visualization follows a modern minimalist approach for creating all the
 - **Filtering**  
   One additional feature include the filtering by **Brand and Products** option along with a **Reset Filters** button to clear all filters
 
-  ![filter](docs/filter.png)
+  ![filters](docs/filters.png)
 
 Altogether the Cards and Charts allow the user to take a simplified view into all the relevant details about the sales for a particular year, helping them reach business decisions without going through the entire data for the year
 
