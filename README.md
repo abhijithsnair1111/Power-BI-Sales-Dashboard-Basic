@@ -9,8 +9,8 @@ The dashboard should be modern and minimalist following all the UI/UX principles
 
 ### Data Source
 Two tables, two fact tables about sales from the past two years and one dimension table about the products
-- Fact Tables [`fact_sales`](docs.fact_sales.csv) and [`fact_sales_2024`](docs/fact_sales_2024.csv)
-- Dimension Table [`dim_products`](docs/dim_products.csv)
+- Fact Tables [`fact_sales`](dataset/fact_sales.csv) and [`fact_sales_2024`](dataset/fact_sales_2024.csv)
+- Dimension Table [`dim_products`](dataset/dim_products.csv)
 
 ### Data Model
 The data model follows a Star Schema pattern with one to many relation from the products to sales tables
