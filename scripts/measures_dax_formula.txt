@@ -1,0 +1,28 @@
+// Measures DAX Formulas
+
+// Total Revenue
+total_revenue = SUM(fact_sales[amount])
+
+// Total Quantity
+total_quantity = SUM(fact_sales[quantity])
+
+// Total Products
+total_products = COUNT(dim_products[product_id])
+
+// Total Orders
+total_orders = DISTINCTCOUNT(fact_sales[order_id])
+
+// Total Customers
+total_customers = DISTINCTCOUNT(fact_sales[customer_id])
+
+// Sales Last Year
+sales_last_year = SUM(fact_sales_2024[amount])
+
+// Revenue Growth
+revenue_growth = DIVIDE([total_revenue] - [sales_last_year], [sales_last_year], 0)
+
+// Average Revenue Per Customer
+average_revenue_per_customer = [total_revenue] / [total_customers]
+
+// Average Order Value
+average_order_value = [total_revenue] / [total_orders]
