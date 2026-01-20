@@ -73,10 +73,35 @@ The `measures` table is a standalone table as it does not contain any common col
 ### Data Visualization 📊
 The Data Visualization follws a modern minimalist approach for creating all the KPIs and Charts. A clean interfacre following UI/UX design principles is followed to makes the dashboard interaction easy and smooth
 
-- The KPI Cards
+- The **KPI Cards**  
+  The Key Point Indicatiors for this data includes
+  - **Growth** - Increase in revenue compared to the previous year
+  - **Orders** - Number of orders placed in the fiscal year
+  - **Quantity** - Total number of products sold in the fiscal year
+  - **Products** - Number od distinct products sold in the fiscal year
+  - **Customers** - Number of customers who placed an order in the fiscal year
+  
+  ![kpi_cards](docs/kpi_cards.png)
 
-The end result is a modern and minimilist dashboard contianing all the insights neccessary for the business to analyse the sales performance for the fiscal year
+- Revenue by Month **Line Chart**  
+  The increase and decrease in revenue for the current and pervious year at the month level explains the rise and fall the revenue by each month and how seasonal factors like holidays may have affected the sales. The two cards  contains the the total revenue for the current and previous year gives the user a quick comparission between the sales
 
+  ![line_chart](docs/line_chart.png)
+
+- Orders by Category **Donut Chart** and Revenue by Category **Bar Chart**  
+  The two charts that breakdown the the Orders and Revenue bythe same parameter 'Category' gives the userr a quick glimpse into how categories are distributed across both orders and revenue generated.   While the donut chart shows part of the the total orders placed on a single category, the bar chart breaks it down even more by dividing the total revenue of each category into price ranges for a quick analysis of what price range do customers prefer when buying products from a certian category
+  
+  ![donut_and_bar_chart](docs/donut_and_bar_chart.png)
+
+Althogether the Cards and Charts allow the user to take a simplified view into all the relevant details about the sales for a particular year, helping them reach business desicions without goin through the entire data for the year
+
+---
+
+## 🪛Conclusion
+This project is a study on how to create a simple dashboard with all the relevant data that the business owners might need to get a larger picture into the sales performance for a particular year. 
+This dashboard does not contian advanced reporting features like multiple pages, filter pane, advanced KPIs and complex calcualtions, the idea of this project is to make a user friendly modern dashboard with basic visuals and intermidete level understaning of the reporting software.
+
+Thank You for visiting this project 🚀
 
 
 
