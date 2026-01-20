@@ -1,0 +1,97 @@
+product_id,product_name,category,sub_category,brand,price
+P001,iPhone 15 Pro,Mobile,Smartphones,Apple,999
+P002,Galaxy S24 Ultra,Mobile,Smartphones,Samsung,1199
+P003,Pixel 8 Pro,Mobile,Smartphones,Google,899
+P004,MacBook Air M3,Computing,Laptops,Apple,1099
+P005,XPS 13,Computing,Laptops,Dell,950
+P006,ThinkPad X1 Carbon,Computing,Laptops,Lenovo,1400
+P007,WH-1000XM5,Audio,Headphones,Sony,349
+P008,QuietComfort Ultra,Audio,Headphones,Bose,429
+P009,AirPods Pro (2nd Gen),Audio,Earbuds,Apple,249
+P010,Galaxy Buds2 Pro,Audio,Earbuds,Samsung,189
+P011,OLED Evo C3 65,Entertainment,Television,LG,1699
+P012,Bravia XR A80L,Entertainment,Television,Sony,1899
+P013,S90C OLED 55,Entertainment,Television,Samsung,1599
+P014,PlayStation 5,Entertainment,Gaming Consoles,Sony,499
+P015,Xbox Series X,Entertainment,Gaming Consoles,Microsoft,499
+P016,Nintendo Switch OLED,Entertainment,Gaming Consoles,Nintendo,349
+P017,Hero 12 Black,Photography,Cameras,GoPro,399
+P018,EOS R6 Mark II,Photography,Cameras,Canon,2499
+P019,Alpha a7 IV,Photography,Cameras,Sony,2499
+P020,Watch Series 9,Wearables,Smartwatches,Apple,399
+P021,Galaxy Watch 6,Wearables,Smartwatches,Samsung,299
+P022,Venu 3,Wearables,Smartwatches,Garmin,449
+P023,iPad Pro 12.9,Computing,Tablets,Apple,1099
+P024,Galaxy Tab S9,Computing,Tablets,Samsung,799
+P025,Surface Pro 9,Computing,Tablets,Microsoft,999
+P026,Kindle Paperwhite,Computing,E-Readers,Amazon,149
+P027,Echo Dot 5th Gen,Smart Home,Smart Speakers,Amazon,49
+P028,Nest Audio,Smart Home,Smart Speakers,Google,99
+P029,Era 300,Audio,Speakers,Sonos,449
+P030,Soundbar Q990C,Audio,Speakers,Samsung,1399
+P031,MX Master 3S,Computing,Accessories,Logitech,99
+P032,BlackWidow V4,Computing,Accessories,Razer,169
+P033,Odyssey G7,Computing,Monitors,Samsung,699
+P034,UltraSharp 27,Computing,Monitors,Dell,599
+P035,Crucial X8 2TB,Computing,Storage,Crucial,159
+P036,SanDisk Extreme 1TB,Computing,Storage,SanDisk,119
+P037,RTX 4080 Super,Computing,Components,NVIDIA,999
+P038,Ryzen 9 7950X,Computing,Components,AMD,549
+P039,Core i9-14900K,Computing,Components,Intel,589
+P040,Hue Starter Kit,Smart Home,Lighting,Philips,199
+P041,Ring Video Doorbell,Smart Home,Security,Amazon,179
+P042,Nest Cam,Smart Home,Security,Google,179
+P043,Dyson V15 Detect,Home,Appliances,Dyson,749
+P044,Roomba Combo j9+,Home,Appliances,iRobot,1399
+P045,Vertuo Next,Home,Appliances,Nespresso,179
+P046,Air Purifier 4 Pro,Home,Appliances,Xiaomi,249
+P047,Instinct 2,Wearables,Smartwatches,Garmin,349
+P048,Fitbit Charge 6,Wearables,Fitness Trackers,Fitbit,159
+P049,GoPro Max,Photography,Cameras,GoPro,499
+P050,Lumix GH6,Photography,Cameras,Panasonic,1699
+P051,Z6 II,Photography,Cameras,Nikon,1999
+P052,OnePlus 12,Mobile,Smartphones,OnePlus,799
+P053,Razr Plus,Mobile,Smartphones,Motorola,699
+P054,Xperia 1 V,Mobile,Smartphones,Sony,1199
+P055,Gram 17,Computing,Laptops,LG,1299
+P056,ROG Zephyrus G14,Computing,Laptops,ASUS,1599
+P057,Blade 16,Computing,Laptops,Razer,2999
+P058,EliteBook 840,Computing,Laptops,HP,1350
+P059,Move 2,Audio,Speakers,Sonos,449
+P060,Flip 6,Audio,Speakers,JBL,129
+P061,Boombox 3,Audio,Speakers,JBL,499
+P062,Momentum 4,Audio,Headphones,Sennheiser,379
+P063,Elite 10,Audio,Earbuds,Jabra,249
+P064,Studio Pro,Audio,Headphones,Beats,349
+P065,NanoLeaf Shapes,Smart Home,Lighting,NanoLeaf,199
+P066,August Wi-Fi Lock,Smart Home,Security,August,229
+P067,Ecobee Premium,Smart Home,Climate,Ecobee,249
+P068,T5 II Sport,Audio,Earbuds,Klipsch,179
+P069,Shield TV Pro,Entertainment,Streaming,NVIDIA,199
+P070,Apple TV 4K,Entertainment,Streaming,Apple,129
+P071,Chromecast 4K,Entertainment,Streaming,Google,49
+P072,Fire TV Stick 4K,Entertainment,Streaming,Amazon,49
+P073,Arc Soundbar,Audio,Speakers,Sonos,899
+P074,AeroPress Go,Home,Appliances,AeroPress,40
+P075,Cosori Air Fryer,Home,Appliances,Cosori,119
+P076,Ember Mug 2,Home,Appliances,Ember,129
+P077,Blue Pure 411,Home,Appliances,Blueair,139
+P078,Keychron Q1,Computing,Accessories,Keychron,169
+P079,Stream Deck MK.2,Computing,Accessories,Elgato,149
+P080,C920s Pro HD,Computing,Accessories,Logitech,69
+P081,Yeti USB Mic,Audio,Microphones,Blue,129
+P082,Cloud III,Entertainment,Gaming,HyperX,99
+P083,Stealth Pro,Entertainment,Gaming,Turtle Beach,329
+P084,T300 RS GT,Entertainment,Gaming,Thrustmaster,449
+P085,Quest 3 128GB,Entertainment,VR,Meta,499
+P086,Vive Pro 2,Entertainment,VR,HTC,799
+P087,ProArt PA278CV,Computing,Monitors,ASUS,399
+P088,Odyssey Neo G9,Computing,Monitors,Samsung,1799
+P089,990 PRO 2TB,Computing,Storage,Samsung,189
+P090,IronWolf 8TB,Computing,Storage,Seagate,199
+P091,H7 Elite Case,Computing,Components,NZXT,179
+P092,RM850x PSU,Computing,Components,Corsair,129
+P093,Kraken 240 AIO,Computing,Components,NZXT,139
+P094,Vengeance 32GB RAM,Computing,Components,Corsair,115
+P095,Surface Laptop 5,Computing,Laptops,Microsoft,1299
+P096,Zenfone 10,Mobile,Smartphones,ASUS,699
