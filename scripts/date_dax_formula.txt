@@ -1,0 +1,11 @@
+// Date DAX Formula
+
+date_table = 
+  ADDCOLUMNS(
+      CALENDARAUTO(),
+      "year", YEAR([Date]),
+      "month_number", MONTH([Date]),
+      "month", FORMAT([Date], "mmm"),
+      "quarter", FORMAT([Date], "\Qq"),
+      "day", FORMAT([Date], "dddd")
+  )
