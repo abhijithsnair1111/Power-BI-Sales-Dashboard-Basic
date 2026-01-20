@@ -35,7 +35,7 @@ The entire dashboard consist of a single page, divided into four section
 
 The Dashboard is designed to evoke a clean and modern feel while keeping it user friendly
 
-**Color Palette** - Primary , Secondary and Tertiary
+**Color Palette** - Primary `#fffff` , Secondary `#0055ac` and Tertiary `#8d0000`
 
 **Typography** - `Calibri`
 
