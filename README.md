@@ -53,16 +53,29 @@ The DAX calculations for this dataset mainly consists of creating two dedicated 
   - `revenue_growth` - Increase in revenue compared to the previous year
   - `average_revenue_per_customer` - Total revenue divided by total customers
   - `average_order_value` - Total revenue divided by total orders
-The formulas written as a single query in [`dax_formulas`](srcipt/dax_formulas)
+The formulas written as a single query in [`measures_dax_formulas`](scripts/measures_dax_formulas)
 
 - **Date Table**  
-  The `date` table is an expanaded version of the already existing `order_date` column in the fact table.
+ The `date_table` is generated with all the dates from the sales fiscal year. This table can be used as a expanaded version of the already existing `order_date` column in the fact tabl, it contains additional information regarding the **Quarter**, **Month** numerical and name and **Day** from the order date.
+The [`date_dax_formula`](scripts/date_dax_formula) contains the formula for creating date table
 
 ### Data Modelling 🔗
+The Data Model for this dataset follow a **Star Schema** pattern. After the DAX calculation there are a total of five tables in the model.
+- Fact tables - `fact_sales` and `fact_sales_2024`
+- Dimension tables - `dim_products` and `date_table`
+- Measures table - `measures`
+
+The `fact_sales` and `fact_sales_2024` can be linked with the `dim_prodcuts` and `date_table` using the `product_id` and `order_date` columns respectively in a one to many relation from the fact to dimension  
+The `measures` table is a standalone table as it does not contain any common column with the any other table
+
+![data_model](docs/data_model.png)
 
 ### Data Visualization 📊
+The Data Visualization follws a modern minimalist approach for creating all the KPIs and Charts. A clean interfacre following UI/UX design principles is followed to makes the dashboard interaction easy and smooth
 
-The end result id a modern and minimilist dashboard contianing all the insights neccessary for the business to analyse the sales performance for the fiscal year
+- The KPI Cards
+
+The end result is a modern and minimilist dashboard contianing all the insights neccessary for the business to analyse the sales performance for the fiscal year
 
 
 
